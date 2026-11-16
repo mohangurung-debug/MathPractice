@@ -16,3 +16,9 @@ x = random.randint(1,10)
 y = random.randint(1,10)
 if Operation == 1:
     print(f"{x}+{y} =?")
+if Operation == 2:
+    print(f"{x}-{y} =?")
+if Operation == 3:
+    print (f"{x}*{y} =?")
+if Operation == 4:
+    print(f"{x}//{y} =?")
